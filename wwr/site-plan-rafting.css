@@ -1,0 +1,60 @@
+@import url('https://coolors.co/7e2e84-d14081-ef798a-f9f5e3-ccf5ac" target="_blank">https://coolors.co/7e2e84-d14081-ef798a-f9f5e3-ccf5ac');
+body ;
+    font-family: var(--paragraph-font)
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    --primary-color: #7E2E84
+    --secondary-color: #D14081
+    --accent1-color: #EF798A
+    --accent2-color: #F9F5E3
+
+    --heading-font: '______', serif;
+    --paragraph-font: '______', serif;
+
+    --nav-background-color: #EDDFEF
+    --nav-link-color: #94958B
+    --nav-hover-link-color: 
+}
+
+body {
+    f_____: var(--paragraph-font);
+    m_____: _____;
+    p_____: _____:
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primar)
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color)
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color)
+    background-color: var(--nav-hover-background-color);
+}
