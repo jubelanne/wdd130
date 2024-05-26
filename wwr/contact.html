@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en-US">
+<head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact Grand Water Rapids | Jubel Dela Cruz</title>
+    <meta name="description" content="This page will provide a contact form to generate inquiries and requests from website visitors.">
+    <meta name="Jubel" content="Jubel">
+    <link rel="stylesheet" href="styles/rafting.css"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333; /* Dark grey */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 50px;
+            vertical-align: middle;
+        }
+
+        header h1 {
+            display: inline;
+            font-size: 24px;
+            margin: 0 10px;
+            vertical-align: middle;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .contact-box {
+            display: flex;
+            background-color: #f0f0f0; /* Light grey */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+
+        .contact-box .left, .contact-box .right {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .contact-box .left {
+            border-right: 1px solid #ccc;
+        }
+
+        .contact-box h2 {
+            margin-top: 0;
+        }
+
+        .contact-box label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-box input, .contact-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-box input[type="radio"], .contact-box input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .contact-box button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-box button:hover {
+            background-color: #45a049;
+        }
+
+        .contact-box .right p {
+            margin: 5px 0;
+        }
+
+        .contact-box iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/crossedoars.jpeg" alt="Rafting Site Logo">
+        <h1>Grand Water Rapids</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Trips</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="contact-box">
+            <div class="left">
+                <h2>Send us a message</h2>
+                <p>We'll respond within 24 hours.</p>
+                <form action="#" method="post">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="organization">Organization Name:</label>
+                    <input type="text" id="organization" name="organization">
+
+                    <label>Purpose of Message:</label>
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                    
+                    <label for="message">Type your message here:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Subscribe to the Newsletter</label>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="right">
+                <h2>Contact Information</h2>
+                <p><strong>Address:</strong> 181 Bethel Rd, Brant, ON N3L 3E3, Canada</p>
+                <p><strong>Email:</strong> info@grandwaterrapids.com</p>
+                <p><strong>Phone:</strong> +1-905-242-3394</p>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.965868032901!2d-80.32582112471656!3d43.1316186791424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c737eece37417%3A0xe0d5b14627027a0!2s181%20Bethel%20Rd%2C%20Brant%2C%20ON%20N3L%203E3%2C%20Canada!5e0!3m2!1sen!2sus!4v1651838786744!5m2!1sen!2sus" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </div>
+    <main>
+            </div>
+            <section class="adventures">
+                <h2>Meet the Team</h2>
+                <div class="adventure-images">
+                    <figure class="employee">
+                        <img src="images/Leah.webp" alt="10 Years Old and Up" width="250" height="125">
+                        <figcaption><strong>Leah</strong><br>Leah is an experienced rafting guide with over a decade of navigating challenging rivers and ensuring the safety and enjoyment of her guests.</figcaption>
+                    </figure>
+                    <figure class="employee">
+                        <img src="images/Tyler.webp" alt="Explore the Wilderness" width="250" height="125">
+                        <figcaption><strong>Tyler</strong><br>Tyler is a skilled rafting guide renowned for his enthusiasm and expertise on the water, making every trip both thrilling and safe for participants.</figcaption>
+                    </figure>
+                    <figure class="employee">
+                        <img src="images/Sarah.webp" alt="Half Day Adventure" width="250" height="125">
+                        <figcaption><strong>Sarah</strong><br>Sarah is a passionate rafting guide known for her extensive knowledge of river ecology and her ability to create unforgettable adventures on the water.</figcaption>
+                    </figure>
+                </div>
+            </section>
+            
+                        
+    </main>
+    <footer>
+        <p>©2024 Rafting Site Document Jubel Dela Cruz WDD130</p>
+        <a href="https://app.moqups.com/6l4pbKBevCaezjTR5yBF5q4fIhrz1VbD/view/page/a29d6f3c2" target="_blank" style="color: white;">Mockup Link</a>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook copy.png" alt="Facebook" width="80" height="80">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/Twitter.png" alt="Twitter" width="80" height="80">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/Instagram.png" alt="Instagram" width="30" height="30">
+            </a>
+        </nav>
+    </footer>
+                <img src

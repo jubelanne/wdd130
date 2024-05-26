@@ -96,3 +96,14 @@ footer .sociallinks img {
     max-width: 30px;
     height: auto;
 }
+
+.adventure-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.employee {
+    flex: 1;
+    margin-right: 10px; /* Adjust margin to control spacing between employees */
+    text-align: left; /* Align captions to the left */
+}
