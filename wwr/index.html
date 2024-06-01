@@ -172,17 +172,57 @@
             </div>
         </section>
 
+        <style>
+            .newsletter-form {
+                width: 50%;
+                margin: 0 auto;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                padding: 20px;
+                text-align: center;
+            }
+            .newsletter-form label,
+            .newsletter-form input[type="text"],
+            .newsletter-form input[type="email"],
+            .newsletter-form input[type="submit"] {
+                display: block;
+                margin: 10px auto;
+            }
+            .newsletter-form input[type="text"],
+            .newsletter-form input[type="email"],
+            .newsletter-form input[type="submit"] {
+                width: 80%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="newsletter-form">
+            <form action="YOUR_MAILCHIMP_FORM_ACTION_URL" method="post">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="FULL_NAME" placeholder="Your full name" required>
+                
+                <label for="email_address">Email Address:</label>
+                <input type="email" id="email_address" name="EMAIL" placeholder="Your email address" required>
+                
+                <input type="submit" value="Subscribe to Newsletter">
+            </form>
+
         <!-- Contact Us Call to Action -->
         <div class="contact-us">
             <h2>Contact Us</h2>
             <p>Ready for your adventure? Contact us now to book your trip!</p>
             <a href="contact.html">Get in Touch</a>
         </div>
+        
     </div>
+    
 
     <footer>
         <p>©2024 Rafting Site Document Jubel Dela Cruz WDD130</p>
-        <a href="https://www.canva.com/design/DAGG6QT1GJk/GXTHyioUmCKJ6cqo_bJDdA/edit?utm_content=DAGG6QT1GJk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" style="color: white;">Mockup Link</a>
+        <a href="https://www.canva.com/design/DAGG7EwxHY8/oSA1ceML1HTKeO3DrMV_gQ/view?utm_content=DAGG7EwxHY8&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" style="color: white;">Mockup Link</a>
         <nav class="sociallinks">
             <a href="https://facebook.com">
                 <img src="images/facebook copy.png" alt="Facebook" width="80" height="80">
